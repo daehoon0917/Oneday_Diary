@@ -46,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
                                 Intent calendarintent = new Intent(getApplicationContext(), CalendarActivity.class);
                                 startActivity(calendarintent);
                                 break;
+                            case R.id.Oitem4:
+                                Intent settingintent = new Intent(getApplicationContext(),SettingActivity.class);
+                                startActivity(settingintent);
                         }
                         return false;
                     }
